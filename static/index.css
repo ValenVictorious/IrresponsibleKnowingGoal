@@ -1,0 +1,46 @@
+ 
+body {
+  background-color: 
+  #303030;
+}
+
+
+h1 {
+  color: darkgreen;
+   font-family: arial;
+   }
+p {
+  color: 3D3D3D;
+  font-family: arial;
+  }
+textarea {
+  color: black;
+  
+  border-radius: 4px;
+}
+head {
+  background-color: black;
+}
+
+div {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  min-height: 200px;
+}
+#post{
+  border: 2px white;
+  border-radius: 4px;
+  color: black;
+  font-family: arial;
+}
+
+#post_submit{
+  color: 3D3D3D;
+  background-color: green ;
+  position: relative;
+  top: 40px;
+
+}

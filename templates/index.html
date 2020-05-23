@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title hidden ></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+
+    <link href='{{url_for('static', filename='index.css') }}' rel="stylesheet">
+
+  </head>
+  <body style="background-color: #404040;">
+    <div class="bg-success">
+
+      <h1> Flabberghasted</h1>
+      <p id="post">hello</p>
+      <textarea id="post_name" placeholder="Title"></textarea>
+      <textarea id="post_content" placeholder="Content"></textarea>
+
+      <script>
+        document.getElementById("post").innerHTML = "this is a post"
+      </script>
+      <button  class="btn"id ="post_submit">Submit</button>
+
+
+    </div>
+    <h1 id='pastText'></h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>window.jQuery || 
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  
+  
+  </body>
+  
+</html>
